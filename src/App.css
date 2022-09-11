@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Sidebar{
+  background:  crimson;
+  color:white;
+  height: 100vh;
+}
+.top-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.logo{
+  font-size: 20px;
+  line-height: 0;
+}
+.search{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
+}
+.search input{
+  border: none;
+
+  margin-left: 10px;
+  border-radius: 5px;
+  background: rgb(238,238,238);
+  
+}
+.link{
+  display: flex;
+  color: white;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6,-0.28, 0.735, 0.045); 
+}
+.link:hover{
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6,- 0.28, 0.735, 0.045);
+  background: lightpink;
+}
+.active{
+  border-right: 4px solid white;
+  background: lightpink transparent;
+}
+
+.main-container{
+  display: flex;
+
+}
+.title{
+  font-size: 30px;
+  color: crimson;
+}
+main{
+  margin: 0 auto;
+  padding: auto auto;
+  font-family: 'Courier New', Courier, monospace
+  
+  
+}
+.login{
+  position: flex;
+  line-height:2;
+  left: 160px;
+
+}
+.register{
+  position: flex;
+  line-height: 2;
+}
+#or{
+  margin: 0 auto;
+}
+.regis{
+  padding-top: 50px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, crimson,  crimson);
+  background-image: -moz-linear-gradient(top,  crimson,  crimson);
+  background-image: -ms-linear-gradient(top,  crimson,  crimson);
+  background-image: -o-linear-gradient(top,  crimson,  crimson);
+  background-image: linear-gradient(to bottom,  crimson,  crimson);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 0;
+}
+.player{
+  display: flex;
+  position: fixed;
+  margin-top: 500px;
+  
+}
+.aplayer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body{
+  overflow-y:scroll;
+  
+}
+.p-audio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
